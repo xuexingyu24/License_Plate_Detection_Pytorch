@@ -33,7 +33,7 @@ LPRNet coding is heavily followed by [sirius-ai](https://github.com/sirius-ai/LP
 ## Reference
 * [MTCNN](https://arxiv.org/abs/1604.02878v1)
 * [LPRNet](https://arxiv.org/abs/1806.10447)
-* [Spatial Transformer Layer](https://arxiv.org/abs/1506.02025)]
+* [Spatial Transformer Layer](https://arxiv.org/abs/1506.02025)
 * [LPRNet_Pytorch](https://github.com/sirius-ai/LPRNet_Pytorch)
 
 **Please give me a star if it is helpful for your research**
