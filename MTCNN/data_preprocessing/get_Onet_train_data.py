@@ -58,7 +58,7 @@ for annotation in img_paths:
 
     image = cv2.imread(im_path)
 
-    bboxes = create_mtcnn_net(image, 50, device, p_model_path='../train/pnet_Weights', r_model_path=None, o_model_path=None)
+    bboxes = create_mtcnn_net(image, (50,15), device, p_model_path='../train/pnet_Weights', o_model_path=None)
     dets = np.round(bboxes[:, 0:4])
 
     if dets.shape[0] == 0:
